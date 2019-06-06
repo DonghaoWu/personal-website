@@ -42,7 +42,7 @@ body {
   font-size: 25px;
 }
 .hero-image {
-  background-image: url("../pictures/developer2.png");
+  background-image: url("./pictures/developer2.png");
   background-color: #cccccc;
   height: 700px;
   background-position: center;
