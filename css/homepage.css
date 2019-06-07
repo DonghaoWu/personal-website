@@ -28,7 +28,7 @@ body {
   margin: 0px 5px 0px 5px;
   text-decoration: none;
   font-size: 18px;
-  padding: 0 10px 0 10px;
+  padding: 0 5px 0 5px;
 }
 .horizontal-nav ul li :hover {
   background-color: #dc143c;
