@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <title>Donghao Wu</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
   </head>
   <body>
     <div class="navigation">
       <nav class="horizontal-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
           <li><a href="about.html">ABOUT</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
           <li><a href="resume.html">RESUME</a></li>
           <li><a href="blog.html">BLOG</a></li>
           <li><a href="contact.html">CONTACT</a></li>
@@ -20,24 +20,35 @@
     </div>
 
     <div class="hero-image">
-      <div class="hero-text">
-        <p id="my-name">I am Donghao Wu.</p>
-        <p id="my-role">And I'm a Software Developer.</p>
-        <!-- <div class="contact-button"> -->
-        <!--
-          <img
-            id="linkedIn-icon"
-            src="../pictures/linkedIn.jpeg"
-            alt="linkedIn-icon"
-          />
-        -->
-        <button class="homepage-button" type="button" name="button">
-          KNOW MORE!
-        </button>
-        <button class="homepage-button" type="button" name="button">
-          CONTACT
-        </button>
-        <!-- </div> -->
+      <div class="hero-text-and-button">
+        <div class="hero-text animate-pop-in">
+          <p class="my-name">I am</p>
+          <p class="my-name">Donghao</p>
+          <p class="my-name">Wu.</p>
+          <p id="my-role">And I'm a Software Developer.</p>
+        </div>
+        <div class="hero-button animate-pop-in">
+          <button class="homepage-button" type="button" name="button">
+            ABOUT ME
+          </button>
+          <button class="homepage-button" type="button" name="button">
+            CONTACT
+          </button>
+        </div>
+      </div>
+
+      <div class="contact-icon">
+        <img
+          src="./pictures/githublogowhite.png"
+          alt="githubLogo"
+          class="logo"
+        />
+        <img
+          src="./pictures/linkedInwhite.png"
+          alt="linkedInLogo"
+          class="logo"
+        />
+        <img src="./pictures/mailwhite.png" alt="linkedInLogo" class="logo" />
       </div>
     </div>
   </body>
