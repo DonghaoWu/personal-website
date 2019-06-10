@@ -4,9 +4,8 @@
   left: 10%;
   right: 10%;
   color: black;
-  max-width: 120rem;
+  max-width: 100rem;
   background-color: white;
-  min-height: 35rem;
 }
 
 .header {
@@ -30,7 +29,7 @@
 
 .info {
   background-color: grey;
-  height: 30rem;
+  height: rem;
   flex: 1;
 }
 
