@@ -107,7 +107,7 @@ body {
 }
 
 .example_main_5 {
-  background-image: url(../../pictures/14.jpg);
+  background-image: url(../../pictures/box-model.jpg);
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
@@ -117,5 +117,5 @@ body {
 
   margin: 1% 0 1% 0;
 
-  background-size: cover;
+  background-size: contain;
 }
