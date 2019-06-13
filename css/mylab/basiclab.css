@@ -1,5 +1,5 @@
 .header {
-  color: blue;
+  color: black;
 }
 body {
   background-color: grey;
@@ -93,7 +93,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
@@ -107,7 +107,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
@@ -121,7 +121,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
@@ -135,7 +135,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
@@ -149,7 +149,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
@@ -163,7 +163,7 @@ body {
   background-position: top;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
@@ -177,7 +177,7 @@ body {
   background-position: bottom;
   width: 300px;
   height: 300px;
-  border: 3px solid blue;
+  border: 3px solid black;
 
   margin: 1% 0 1% 0;
 
