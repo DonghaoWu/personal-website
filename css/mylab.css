@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-.all_content_container {
+.main_content_container {
   position: absolute;
   top: 10%;
   left: 10%;
@@ -26,6 +26,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.lab_link {
+  opacity: 0.85;
+}
+
+.lab_link:hover {
+  opacity: 1;
 }
 
 .example_container {
@@ -97,7 +105,7 @@
 }
 
 .example_image_5 {
-  background-image: url(.././pictures/animation.png);
+  background-image: url(.././pictures/animation2.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 170px;
@@ -106,4 +114,8 @@
   margin: 0;
 
   background-size: contain;
+}
+
+.mylab_home_button {
+  margin-top: 30px;
 }

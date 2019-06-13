@@ -101,6 +101,7 @@ body {
   background-color: #dc143c;
   color: white;
   opacity: 1;
+  box-shadow: 3px 3px black;
 }
 
 .contact_icon {
