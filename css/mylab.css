@@ -1,10 +1,3 @@
-.lab_item {
-  font-size: 3rem;
-  text-decoration: none;
-}
-.lab_item a {
-  color: blue;
-}
 .all_content_title {
   color: white;
   font-size: 2.5rem;
@@ -51,69 +44,36 @@
   font-size: 1.1rem;
   color: white;
 }
+
 .example_title a {
   color: white;
   text-decoration: none;
 }
 
-.example_image_1 {
+.example_image {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 205px;
+  height: 170px;
+  margin: 0;
+
+  background-size: cover;
+}
+
+.p1 {
   background-image: url(.././pictures/css.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: cover;
 }
-
-.example_image_2 {
+.p2 {
   background-image: url(.././pictures/node.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: cover;
 }
-
-.example_image_3 {
+.p3 {
   background-image: url(.././pictures/react2.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: cover;
 }
-
-.example_image_4 {
+.p4 {
   background-image: url(.././pictures/mongo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: cover;
 }
-
-.example_image_5 {
+.p5 {
   background-image: url(.././pictures/fullstack.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: cover;
 }
 
 .mylab_home_button {
