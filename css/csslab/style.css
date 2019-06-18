@@ -56,64 +56,31 @@
   text-decoration: none;
 }
 
-.example_image_1 {
+.css_lab_image {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 205px;
+  height: 170px;
+
+  margin: 0;
+
+  background-size: contain;
+}
+
+.p1 {
   background-image: url(../../pictures/css2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: contain;
 }
-
-.example_image_2 {
+.p2 {
   background-image: url(../../pictures/flexbox1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: contain;
 }
-
-.example_image_3 {
+.p3 {
   background-image: url(../../pictures/flexbox2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: contain;
 }
-
-.example_image_4 {
+.p4 {
   background-image: url(../../pictures/grid.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: contain;
 }
-
-.example_image_5 {
+.p5 {
   background-image: url(../../pictures/animation2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-
-  margin: 0;
-
-  background-size: contain;
 }
 
 .mylab_home_button {
