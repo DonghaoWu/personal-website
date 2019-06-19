@@ -54,8 +54,9 @@
   border-top: 2px solid black;
   text-align: center;
   padding: 0 1% 0 1%;
-  font-size: 90%;
+  font-size: 100%;
   color: white;
+  word-wrap: break-word;
 }
 
 .example_title a {
