@@ -1,18 +1,19 @@
-.all_content_title {
-  color: white;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
-}
-
 .main_content_container {
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 5%;
   right: 5%;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whole_content_title {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 .all_labs_container {
@@ -29,19 +30,31 @@
   opacity: 1;
 }
 
+.lab_content {
+  width: 20%;
+  margin: 10px;
+}
+
 .example_container {
   background-color: #dc143c;
-  margin: 1% 15px 1% 15px;
-  padding: 0;
+  width: 100%;
+  height: 100%;
   border: 2px solid black;
 
   display: inline-block;
 }
 
+.lab_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .example_title {
   border-top: 2px solid black;
   text-align: center;
-  font-size: 1.1rem;
+  padding: 0 1% 0 1%;
+  font-size: 90%;
   color: white;
 }
 
@@ -50,32 +63,6 @@
   text-decoration: none;
 }
 
-.my_lab_image {
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 205px;
-  height: 170px;
-  margin: 0;
-
-  background-size: cover;
-}
-
-.p1 {
-  background-image: url(.././pictures/css.png);
-}
-.p2 {
-  background-image: url(.././pictures/node.png);
-}
-.p3 {
-  background-image: url(.././pictures/react2.jpeg);
-}
-.p4 {
-  background-image: url(.././pictures/mongo.jpg);
-}
-.p5 {
-  background-image: url(.././pictures/fullstack.png);
-}
-
 .mylab_home_button {
-  margin-top: 40px;
+  margin-top: 30px;
 }
