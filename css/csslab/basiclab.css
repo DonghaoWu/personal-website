@@ -192,3 +192,21 @@ body {
   top: 50px;
   left: 100px;
 }
+.p_in_t6 {
+  background-color: #a9a9a9;
+}
+.display_none {
+  display: none;
+}
+.display_inline {
+  background-color: orange;
+  display: inline;
+}
+.display_block {
+  background-color: orange;
+  display: block;
+}
+.display_inline_block {
+  background-color: orange;
+  display: inline-block;
+}
