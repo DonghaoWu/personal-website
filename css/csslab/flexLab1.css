@@ -29,19 +29,20 @@ body {
 .example_container {
   margin: 1% 1% 1% 1%;
   border: 3px dotted black;
-  width: 90%;
+  width: 45%;
 
   display: block;
 }
 
 .example_title_container {
-  height: 80px;
   color: black;
   text-align: center;
   font-size: 1.1rem;
   margin: 0;
   padding: 1% 0 1% 0;
   background-color: #dc143c;
+
+  display: block;
 }
 
 p {
@@ -59,7 +60,7 @@ p {
 }
 
 .example_content_container {
-  height: 200px;
+  height: 300px;
   background-color: purple;
   padding: 1% 0 1% 0;
 }
@@ -67,17 +68,117 @@ p {
 .t1_1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
 }
 
 .t1_2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .t1_3 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.t1_4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.t2_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.t2_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.t2_3 {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
+
+.t2_4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.t2_5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.t2_6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.t3_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.t3_i2 {
+  height: 200px;
+  width: 100px;
+}
+
+.t3_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.t3_3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.t4_i3_1 {
+  align-self: flex-start;
+}
+
+.t4_i3_2 {
+  align-self: flex-end;
+}
+
+.t4_i3_3 {
+  align-self: center;
+}
+
+.t4_i3_4 {
+  order: -1;
+}
+
+.t4_i3_5 {
+  order: 1;
+}
+
+.t5{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.t5_i4_1{
+  flex-grow: 1;
+}
+
