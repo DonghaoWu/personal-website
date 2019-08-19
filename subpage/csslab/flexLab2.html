@@ -13,10 +13,28 @@
         <form action="#" class="search">
           <input type="text" class="search_input" placeholder="Search Hotel" />
           <button class="search_button">
-            <!-- svg的use方式只在server方式下运行 -->
-            <img src="img/SVG/magnifying-glass.svg" class = 'search-icon'/>
+            <!-- svg的`xlink:href`方式只在server方式下运行 -->
+            <img src="img/SVG/magnifying-glass.svg" class="search_icon" />
           </button>
         </form>
+
+        <div class="user-nav">
+          <div class="user-nav_icon-box">
+            <img src="img/SVG/bookmark.svg" class="user-nav_icon" />
+            <span class="user-nav_notification">7</span>
+          </div>
+          <div class="user-nav_icon-box">
+            <img src="img/SVG/chat.svg" class="user-nav_icon" />
+            <span class="user-nav_notification">13</span>
+          </div>
+          <div class="user-nav_user">
+            <img
+              src="../../pictures/pokemon2.png"
+              class="user-nav_user-photo"
+            />
+            <span class="user-nav_user-name">Donghao</span>
+          </div>
+        </div>
       </header>
       <div class="content">
         <nav class="sidebar">Navigation</nav>
