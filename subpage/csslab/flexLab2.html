@@ -13,9 +13,8 @@
         <form action="#" class="search">
           <input type="text" class="search_input" placeholder="Search Hotel" />
           <button class="search_button">
-            <svg class="search__icon">
-              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-            </svg>
+            <!-- svg的use方式只在server方式下运行 -->
+            <img src="img/SVG/magnifying-glass.svg" class = 'search-icon'/>
           </button>
         </form>
       </header>
