@@ -1,6 +1,6 @@
 ### 开发者日记：
 
-`8月19日.关于svg的使用：如果你要这样应用svg文件：`
+#### `8月19日.关于svg的使用：如果你要这样应用svg文件：`
 
 ```html
 <svg class="search__icon">
@@ -17,5 +17,6 @@
 $ npm install -g live-server
 ```
 - 详细可参考trillo项目的视频。
+
 </ol>
 
