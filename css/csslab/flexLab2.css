@@ -29,8 +29,9 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
   /* 1rem = 10px, 10px /16px = 62.5% */
+  font-size: 62.5%;
+  
 }
 
 body {
@@ -75,7 +76,7 @@ body {
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-  /* nogrow noshrink 18%*/
+  /* no grow, no shrink, 18% width*/
   flex: 0 0 18%;
 }
 
