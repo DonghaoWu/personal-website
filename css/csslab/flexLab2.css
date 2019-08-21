@@ -202,7 +202,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* 备注：8月21日，以下这段是难点 */
+/* 备注：8月21日，以下这段是难点(关于sidebar都动态展示) */
 /* before状态 被hover之前的状态 */
 .side-nav_item::before {
   content: '';
