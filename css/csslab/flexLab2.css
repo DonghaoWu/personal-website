@@ -16,6 +16,7 @@
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
 
+/* for everything */
 * {
   margin: 0;
   padding: 0;
@@ -74,7 +75,7 @@ body {
 
 .hotel-view {
   background-color: var(--color-grey-light-1);
-  height: 50rem;
+  height: 55rem;
   flex: 1;
 }
 
@@ -237,11 +238,11 @@ body {
 }
 
 .side-nav_link {
-  color: var(--color-grey-light-1);
+  color: var(--color-grey-light-3);
   text-decoration: none;
   text-transform: uppercase;
   padding: 1.5rem 3rem;
-
+  /* 设定为relative之后才能设定z-index */
   position: relative;
   z-index: 10;
 
@@ -250,7 +251,7 @@ body {
 }
 
 .side-nav_link:hover {
-  color: white;
+  color: var(--color-grey-light-1);
 }
 
 .side-nav_icon {
@@ -263,7 +264,7 @@ body {
 
 .legal {
   font-size: 1.2rem;
-  color: var(--color-grey-light-4);
+  color: var(--color-grey-light-3);
   text-align: center;
   padding: 2.5rem;
 }
