@@ -19,7 +19,7 @@
   --bottom-line: 1px solid var(--color-grey-light-3);
 }
 
-/* for everything */
+/* for all elements */
 * {
   margin: 0;
   padding: 0;
