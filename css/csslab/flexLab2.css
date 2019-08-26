@@ -45,7 +45,7 @@ body {
   background-color: var(--color-primary-light);
   height: 100%;
 }
-
+/* header + content */
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+/* sidebar + hotel-view */
 .content {
   display: flex;
 }
@@ -85,7 +85,7 @@ body {
 
 /* header Part */
 /* ===================================> */
-
+/* logo + search + user */
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
@@ -189,6 +189,7 @@ body {
 
 /* Side bar Part */
 /* ===================================> */
+/* 主要是animation */
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -282,6 +283,8 @@ body {
 
 /* hotel view Part */
 /* ===================================> */
+
+/* gallery + overview + description */
 .gallery {
   display: flex;
 }
