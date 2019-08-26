@@ -424,3 +424,78 @@ body {
   background-color: yellowgreen;
   flex: 1;
 }
+
+/* ===================================> */
+/* description- paragraph */
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+/* 以下代码实现了两行平行展示li元素 */
+/* description- list */
+.list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  border-top: var(--bottom-line);
+  border-bottom: var(--bottom-line);
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-items {
+  flex: 0 0 50%;
+  margin-bottom: 0.7rem;
+}
+
+.list-items::before {
+  content: '';
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0.7rem;
+
+  /* older browser */
+  /* background-image: url(../../subpage/csslab/img/chevron-thin-right.svg);
+     background-size:cover;
+  */
+
+  /* Newer browsers -mask */
+  background-color: var(--color-primary);
+  -webkit-mask-image: url(../../subpage/csslab/img/chevron-thin-right.svg);
+  -webkit-mask-size: cover;
+  mask-image: url(../../subpage/csslab/img/chevron-thin-right.svg);
+  mask-size: cover;
+}
+
+/* description- recommand */
+.recommand {
+  font-size: 1.3rem;
+  color: var(--color-grey-dark-3);
+
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.recommand-count {
+  /* 可以用这句， 也可以用justif-content:space-between; */
+  margin-right: auto;
+}
+
+.recommand-friends {
+}
+
+.recommand-photo {
+  box-sizing: content-box;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+
+  border: 3px solid white;
+}
+
+.recommand-photo:not(:last-child) {
+  margin-right: -1.5rem;
+}
