@@ -611,7 +611,7 @@ body {
   color: #fff;
   position: relative;
   overflow: hidden;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .btn-visible {
@@ -655,6 +655,6 @@ body {
   animation: pulsate 1s infinite;
 }
 
-
 /* media queries part */
 /* ===================================> */
+/* This project will be finished on 8/29 . */
