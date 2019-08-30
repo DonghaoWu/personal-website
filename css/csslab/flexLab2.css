@@ -17,7 +17,10 @@
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
 
   --bottom-line: 1px solid var(--color-grey-light-3);
+/* 这种定义长度的方法是无效的 */
+  --bp-largest:75em;
 }
+
 
 /* for all elements */
 * {
@@ -54,6 +57,10 @@ body {
 
   min-height: 50rem;
 }
+
+
+
+
 
 .header {
   font-size: 1.4rem;
@@ -247,7 +254,20 @@ body {
   background-color: var(--color-primary-light);
 }
 
-.side-nav_link {
+.side-nav_link{
+  color: var(--color-grey-light-3);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  /* 设定为relative之后才能设定z-index */
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+}
+
+.side-nav_link:visited{
   color: var(--color-grey-light-3);
   text-decoration: none;
   text-transform: uppercase;
@@ -501,6 +521,7 @@ body {
 }
 
 .recommand-friends {
+  display:flex;
 }
 
 .recommand-photo {
@@ -513,7 +534,7 @@ body {
 }
 
 .recommand-photo:not(:last-child) {
-  margin-right: -1.5rem;
+  margin-right: -2rem;
 }
 
 /* Reviews part */
@@ -658,3 +679,96 @@ body {
 /* media queries part */
 /* ===================================> */
 /* This project will be finished on 8/29 . */
+
+@media only screen and (max-width:1000px){
+  .content{
+    flex-direction: column;
+  }
+  .side-nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .legal{
+    display: none;
+  }
+  .side-nav_item{
+    flex:1;
+  }
+  .side-nav_item:not(:last-child){
+    margin:0;
+  }
+  .side-nav_link{
+    justify-content: center;
+    padding: 2rem;
+  }
+  .detail{
+    padding: 3rem;
+    margin-right: 3rem
+  }
+  .review{
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .cta{
+    padding: 2.5rem 0;
+  }
+}
+@media only screen and (max-width:1200px){
+  .container{
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:1100px){
+  html{
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .detail{
+    flex-direction: column
+  }
+  .description{
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .side-nav_link{
+    flex-direction: column;
+    padding: 1.5rem .5rem;
+  }
+  .side-nav_icon{
+    margin-right:0;
+    margin-bottom: .7rem;
+    width: 1.5rem;
+  }
+  .overview{
+    font-size: 1.8rem;
+    padding: 1.25rem 2rem;
+  }
+  .review-rating{
+    padding: 0 1.5rem;
+  }
+  .overview-rating-average{
+    font-size: 1.8rem;
+  }
+  .recommand-count{
+    font-size: .5rem;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .search{
+    order:1;
+    flex:0 0 100%;
+  }
+  .header{
+    flex-wrap: wrap;
+    height:11rem;
+    align-content: space-around;
+  }
+}
+

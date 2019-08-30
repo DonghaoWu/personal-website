@@ -1,269 +1,195 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>FLEX LAB2</title>
-    <link rel="stylesheet" href="../../css/style.css" />
-    <link rel="stylesheet" href="../../css/csslab/flexLab2.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <img src="img/logo.png" alt="logo" class="logo" />
-        <form action="#" class="search">
-          <input type="text" class="search_input" placeholder="Search Hotel" />
-          <button class="search_button">
-            <!-- svg的`xlink:href`方式只在server方式下运行 -->
-            <img src="img/SVG/magnifying-glass.svg" class="search_icon" />
-          </button>
-        </form>
 
-        <div class="user-nav">
-          <div class="user-nav_icon-box">
-            <img src="img/SVG/bookmark.svg" class="user-nav_icon" />
-            <span class="user-nav_notification">7</span>
+<head>
+  <meta charset="utf-8" />
+  <title>FLEX LAB2</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/csslab/flexLab2.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="img/logo.png" alt="logo" class="logo" />
+      <form action="#" class="search">
+        <input type="text" class="search_input" placeholder="Search Hotel" />
+        <button class="search_button">
+          <!-- svg的`xlink:href`方式只在server方式下运行 -->
+          <img src="img/SVG/magnifying-glass.svg" class="search_icon" />
+        </button>
+      </form>
+
+      <div class="user-nav">
+        <div class="user-nav_icon-box">
+          <img src="img/SVG/bookmark.svg" class="user-nav_icon" />
+          <span class="user-nav_notification">7</span>
+        </div>
+        <div class="user-nav_icon-box">
+          <img src="img/SVG/chat.svg" class="user-nav_icon" />
+          <span class="user-nav_notification">13</span>
+        </div>
+        <div class="user-nav_user">
+          <img src="../../pictures/pokemon2.png" class="user-nav_user-photo" />
+          <span class="user-nav_user-name">Donghao</span>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <nav class="sidebar">
+        <ul class="side-nav">
+          <li class="side-nav_item side-nav_item-active">
+            <a href="#" class="side-nav_link">
+              <img src="img/SVG/home.svg" alt="home-icon" class="side-nav_icon" />
+              <span>Hotel</span>
+            </a>
+          </li>
+          <li class="side-nav_item">
+            <a href="#" class="side-nav_link">
+              <img src="img/SVG/aircraft-take-off.svg" alt="home-icon" class="side-nav_icon" />
+              <span>Flight</span>
+            </a>
+          </li>
+          <li class="side-nav_item">
+            <a href="#" class="side-nav_link">
+              <img src="img/SVG/key.svg" alt="home-icon" class="side-nav_icon" />
+              <span>Car rental</span>
+            </a>
+          </li>
+          <li class="side-nav_item">
+            <a href="#" class="side-nav_link">
+              <img src="img/SVG/map.svg" alt="home-icon" class="side-nav_icon" />
+              <span>Tours</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="legal">
+          &copy: 2019 by Donghao. All rights reserved.
+        </div>
+      </nav>
+
+      <main class="hotel-view">
+        <div class="gallery">
+          <figure class="gallery_item">
+            <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery_photo" />
+          </figure>
+          <figure class="gallery_item">
+            <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery_photo" />
+          </figure>
+          <figure class="gallery_item">
+            <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery_photo" />
+          </figure>
+        </div>
+        <div class="overview">
+          <h1 class="overview-heading">Hotel Las Palmas</h1>
+          <div class="overview-stars">
+            <img src="img/SVG/star.svg" alt="overview stars" class="overview-icon-star" />
+            <img src="img/SVG/star.svg" alt="overview stars" class="overview-icon-star" />
+            <img src="img/SVG/star.svg" alt="overview stars" class="overview-icon-star" />
+            <img src="img/SVG/star.svg" alt="overview stars" class="overview-icon-star" />
+            <img src="img/SVG/star.svg" alt="overview stars" class="overview-icon-star" />
           </div>
-          <div class="user-nav_icon-box">
-            <img src="img/SVG/chat.svg" class="user-nav_icon" />
-            <span class="user-nav_notification">13</span>
+          <div class="overview-location">
+            <img src="img/SVG/location-pin.svg" alt="overview location" class="overview-icon-location" />
+            <button class="btn-inline">New York, New York</button>
           </div>
-          <div class="user-nav_user">
-            <img
-              src="../../pictures/pokemon2.png"
-              class="user-nav_user-photo"
-            />
-            <span class="user-nav_user-name">Donghao</span>
+          <div class="overview-rating">
+            <div class="overview-rating-average">8.6</div>
+            <div class="overview-rating-count">430 votes</div>
           </div>
         </div>
-      </header>
-      <div class="content">
-        <nav class="sidebar">
-          <ul class="side-nav">
-            <li class="side-nav_item side-nav_item-active">
-              <a href="#" class="side-nav_link">
-                <img
-                  src="img/SVG/home.svg"
-                  alt="home-icon"
-                  class="side-nav_icon"
-                />
-                <span>Hotel</span>
-              </a>
-            </li>
-            <li class="side-nav_item">
-              <a href="#" class="side-nav_link">
-                <img
-                  src="img/SVG/aircraft-take-off.svg"
-                  alt="home-icon"
-                  class="side-nav_icon"
-                />
-                <span>Flight</span>
-              </a>
-            </li>
-            <li class="side-nav_item">
-              <a href="#" class="side-nav_link">
-                <img
-                  src="img/SVG/key.svg"
-                  alt="home-icon"
-                  class="side-nav_icon"
-                />
-                <span>Car rental</span>
-              </a>
-            </li>
-            <li class="side-nav_item">
-              <a href="#" class="side-nav_link">
-                <img
-                  src="img/SVG/map.svg"
-                  alt="home-icon"
-                  class="side-nav_icon"
-                />
-                <span>Tours</span>
-              </a>
-            </li>
-          </ul>
 
-          <div class="legal">
-            &copy: 2019 by Donghao. All rights reserved.
-          </div>
-        </nav>
+        <div class="detail">
+          <div class="description">
+            <p class="paragraph">
+              Suspendisse ornare lacus diam, ac fringilla orci ultrices non. Nam sit amet sodales nisi, sit amet placerat risus. Donec
+              accumsan interdum ligula vel iaculis. Nunc nec lectus sit amet eros lobortis gravida at et nisi. Nam dictum
+              mauris in congue gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Aenean pharetra auctor nisi quis tempus. Sed placerat hendrerit suscipit. In ornare ipsum sit amet
+              purus sagittis efficitur. Nulla ut blandit nisl. Nulla tincidunt enim vitae enim rhoncus, sed cursus neque
+              pretium.
+            </p>
+            <p class="paragraph">
+              Sed et metus eu nulla vulputate iaculis ut nec nulla. Aliquam sit amet mi mi. Cras gravida felis et tempus sodales. Maecenas
+              justo tortor, molestie a consectetur sed, cursus et neque.
+            </p>
 
-        <main class="hotel-view">
-          <div class="gallery">
-            <figure class="gallery_item">
-              <img
-                src="img/hotel-1.jpg"
-                alt="Photo of hotel 1"
-                class="gallery_photo"
-              />
-            </figure>
-            <figure class="gallery_item">
-              <img
-                src="img/hotel-2.jpg"
-                alt="Photo of hotel 2"
-                class="gallery_photo"
-              />
-            </figure>
-            <figure class="gallery_item">
-              <img
-                src="img/hotel-3.jpg"
-                alt="Photo of hotel 3"
-                class="gallery_photo"
-              />
-            </figure>
-          </div>
-          <div class="overview">
-            <h1 class="overview-heading">Hotel Las Palmas</h1>
-            <div class="overview-stars">
-              <img
-                src="img/SVG/star.svg"
-                alt="overview stars"
-                class="overview-icon-star"
-              />
-              <img
-                src="img/SVG/star.svg"
-                alt="overview stars"
-                class="overview-icon-star"
-              />
-              <img
-                src="img/SVG/star.svg"
-                alt="overview stars"
-                class="overview-icon-star"
-              />
-              <img
-                src="img/SVG/star.svg"
-                alt="overview stars"
-                class="overview-icon-star"
-              />
-              <img
-                src="img/SVG/star.svg"
-                alt="overview stars"
-                class="overview-icon-star"
-              />
-            </div>
-            <div class="overview-location">
-              <img
-                src="img/SVG/location-pin.svg"
-                alt="overview location"
-                class="overview-icon-location"
-              />
-              <button class="btn-inline">New York, New York</button>
-            </div>
-            <div class="overview-rating">
-              <div class="overview-rating-average">8.6</div>
-              <div class="overview-rating-count">430 votes</div>
-            </div>
-          </div>
+            <ul class="list">
+              <li class="list-items">Close to the beach</li>
+              <li class="list-items">Breafast included</li>
+              <li class="list-items">Free airport shuttle</li>
+              <li class="list-items">Free wifi in all rooms</li>
+              <li class="list-items">Pets allowed</li>
+              <li class="list-items">We speak all languages</li>
+              <li class="list-items">Air conditioning and heating</li>
+              <li class="list-items">Perfect for families</li>
+            </ul>
 
-          <div class="detail">
-            <div class="description">
-              <p class="paragraph">
-                Suspendisse ornare lacus diam, ac fringilla orci ultrices non.
-                Nam sit amet sodales nisi, sit amet placerat risus. Donec
-                accumsan interdum ligula vel iaculis. Nunc nec lectus sit amet
-                eros lobortis gravida at et nisi. Nam dictum mauris in congue
-                gravida. Class aptent taciti sociosqu ad litora torquent per
-                conubia nostra, per inceptos himenaeos. Aenean pharetra auctor
-                nisi quis tempus. Sed placerat hendrerit suscipit. In ornare
-                ipsum sit amet purus sagittis efficitur. Nulla ut blandit nisl.
-                Nulla tincidunt enim vitae enim rhoncus, sed cursus neque
-                pretium.
+            <div class="recommand">
+              <p class="recommand-count">
+                Lucy and 3 other friends recommand this hotel.
               </p>
-              <p class="paragraph">
-                Sed et metus eu nulla vulputate iaculis ut nec nulla. Aliquam
-                sit amet mi mi. Cras gravida felis et tempus sodales. Maecenas
-                justo tortor, molestie a consectetur sed, cursus et neque.
-              </p>
+              <div class="recommand-friends">
+                <img src="img/user-3.jpg" alt="recommand friend 1" class="recommand-photo" />
+                <img src="img/user-4.jpg" alt="recommand friend 2" class="recommand-photo" />
 
-              <ul class="list">
-                <li class="list-items">Close to the beach</li>
-                <li class="list-items">Breafast included</li>
-                <li class="list-items">Free airport shuttle</li>
-                <li class="list-items">Free wifi in all rooms</li>
-                <li class="list-items">Pets allowed</li>
-                <li class="list-items">We speak all languages</li>
-                <li class="list-items">Air conditioning and heating</li>
-                <li class="list-items">Perfect for families</li>
-              </ul>
-
-              <div class="recommand">
-                <p class="recommand-count">
-                  Lucy and 3 other friends recommand this hotel.
-                </p>
-                <div class="recommand-friends">
-                  <img
-                    src="img/user-3.jpg"
-                    alt="recommand friend 1"
-                    class="recommand-photo"
-                  />
-                  <img
-                    src="img/user-4.jpg"
-                    alt="recommand friend 2"
-                    class="recommand-photo"
-                  />
-
-                  <img
-                    src="img/user-5.jpg"
-                    alt="recommand friend 3"
-                    class="recommand-photo"
-                  />
-                  <img
-                    src="img/user-6.jpg"
-                    alt="recommand friend 4"
-                    class="recommand-photo"
-                  />
-                </div>
+                <img src="img/user-5.jpg" alt="recommand friend 3" class="recommand-photo" />
+                <img src="img/user-6.jpg" alt="recommand friend 4" class="recommand-photo" />
               </div>
             </div>
-            <div class="user-review">
-              <figure class="review">
-                <blockquote class="review-text">
-                  Sed et metus eu nulla vulputate iaculis ut nec nulla. Aliquam
-                  sit amet mi mi. Cras gravida felis et tempus sodales. Maecenas
-                  justo tortor, molestie a consectetur sed, cursus et neque.
-                </blockquote>
-
-                <figcaption class="review_user">
-                  <img src="img/user-1.jpg" alt="User 1" class="review-photo" />
-                  <div class="review-user-box">
-                    <p class="review-user-name">Nick</p>
-                    <p class="review-user-date">Feb 23rd, 2017</p>
-                  </div>
-                  <div class="review-rating">7.8</div>
-                </figcaption>
-              </figure>
-
-              <figure class="review">
-                <blockquote class="review-text">
-                  Sed et metus eu nulla vulputate iaculis ut nec nulla. Aliquam
-                  sit amet mi mi. Cras gravida felis et tempus sodales. Maecenas
-                  justo tortor, molestie a consectetur sed, cursus et neque.
-                </blockquote>
-
-                <figcaption class="review_user">
-                  <img src="img/user-2.jpg" alt="User 1" class="review-photo" />
-                  <div class="review-user-box">
-                    <p class="review-user-name">Mary</p>
-                    <p class="review-user-date">Nov 14rd, 2017</p>
-                  </div>
-                  <div class="review-rating">9.3</div>
-                </figcaption>
-              </figure>
-
-              <button class="btn-inline">
-                Show all<span class="arrow">&rarr;</span>
-              </button>
-            </div>
           </div>
-          <div class="cta">
-            <h2 class="cta_book-now">
-              Good news! We have 4 free rooms for your selected dates!
-            </h2>
-            <button class="btn">
-              <span class="btn-visible">Book now</span>
-              <span class="btn-invisible">Only 4 Rooms left</span>
+          <div class="user-review">
+            <figure class="review">
+              <blockquote class="review-text">
+                Sed et metus eu nulla vulputate iaculis ut nec nulla. Aliquam sit amet mi mi. Cras gravida felis et tempus sodales. Maecenas
+                justo tortor, molestie a consectetur sed, cursus et neque.
+              </blockquote>
+
+              <figcaption class="review_user">
+                <img src="img/user-1.jpg" alt="User 1" class="review-photo" />
+                <div class="review-user-box">
+                  <p class="review-user-name">Nick</p>
+                  <p class="review-user-date">Feb 23rd, 2017</p>
+                </div>
+                <div class="review-rating">7.8</div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <blockquote class="review-text">
+                Sed et metus eu nulla vulputate iaculis ut nec nulla. Aliquam sit amet mi mi. Cras gravida felis et tempus sodales. Maecenas
+                justo tortor, molestie a consectetur sed, cursus et neque.
+              </blockquote>
+
+              <figcaption class="review_user">
+                <img src="img/user-2.jpg" alt="User 1" class="review-photo" />
+                <div class="review-user-box">
+                  <p class="review-user-name">Mary</p>
+                  <p class="review-user-date">Nov 14rd, 2017</p>
+                </div>
+                <div class="review-rating">9.3</div>
+              </figcaption>
+            </figure>
+
+            <button class="btn-inline">
+              Show all
+              <span class="arrow">&rarr;</span>
             </button>
           </div>
-        </main>
-      </div>
+        </div>
+        <div class="cta">
+          <h2 class="cta_book-now">
+            Good news! We have 4 free rooms for your selected dates!
+          </h2>
+          <button class="btn">
+            <span class="btn-visible">Book now</span>
+            <span class="btn-invisible">Only 4 Rooms left</span>
+          </button>
+        </div>
+      </main>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
