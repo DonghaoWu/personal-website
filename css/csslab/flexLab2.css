@@ -727,7 +727,7 @@ body {
     font-size: 50%;
   }
 }
-
+/* 当width小于1000px时出现无效状况 */
 @media only screen and (max-width:600px){
   .detail{
     flex-direction: column
