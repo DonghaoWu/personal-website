@@ -679,7 +679,7 @@ body {
 /* media queries part */
 /* ===================================> */
 /* This project will be finished on 8/29 . */
-
+/* max-width在1000px以上有效，这个是后续要解决的问题 */
 @media only screen and (max-width:1000px){
   .content{
     flex-direction: column;
