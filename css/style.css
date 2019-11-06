@@ -63,6 +63,7 @@ body {
   background-size: cover;
   position: relative;
   opacity: 0.93;
+  background-attachment: fixed;
 }
 .my_name {
   font-size: 60px;
