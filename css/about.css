@@ -58,7 +58,7 @@
 .sidebar_list {
   margin: 5px 5px 5rem 0;
   padding: 10px 10px 10px 10px;
-  background-color: ;
+  background-color: transparent;
 }
 .sidebar a {
   color: white;
@@ -69,4 +69,12 @@
 }
 .info {
   padding: 10px;
+}
+
+.about_button{
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
