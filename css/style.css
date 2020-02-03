@@ -94,9 +94,9 @@ body {
 }
 
 @keyframes myfirst {
-  0%   {left: 200px; top: 0px;}
-  50% { left: -40px; top: 0px;}
-  100% { left: 0px; top: 0px;}
+  0%   {left: 100px; top: 0px;opacity: 0%;}
+  50% { left: -30px; top: 0px;opacity: 70%;}
+  100% { left: 0px; top: 0px;opacity: 100%;}
 }
 
 .animate_pop_in {
