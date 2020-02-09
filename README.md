@@ -17,3 +17,6 @@ $ npm install -g live-server
 ```
 
 - 详细可参考 trillo 项目的视频。
+
+
+#### `2月5日.增加主页的 self-picture：`
