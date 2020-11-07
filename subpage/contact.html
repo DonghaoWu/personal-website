@@ -1,88 +1,84 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>CONTACT PAGE</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/mylab.css" />
-    <link rel="stylesheet" href="../css/csslab/style.css" />
-  </head>
-  <body>
-    <div class="navigation">
-      <nav class="horizontal_nav">
-        <ul>
-            <li>
-                <a href="../index.html">HOME</a>
-              </li>
-      
-              <li>
-                <a href="./about.html">ABOUT</a>
-              </li>
-              <li>
-                <a href="./projects.html">PROJECTS</a>
-              </li>
-              <li>
-                <a href="./mylab.html">LAB</a>
-              </li>
-              <li>
-                <a href="./gallery.html">GALLERY</a>
-              </li>
-              <li>
-                <a href="./contact.html">CONTACT</a>
-              </li>
-        </ul>
-      </nav>
-    </div>
 
-    <div class="main_content">
-        <div class="main_content_container animate_pop_in">
-          <p class="whole_content_title">CONTACT</p>
-          <div class="all_labs_container">
-            <div class="lab_content">
-              <a href="https://github.com/DonghaoWu" class="lab_link">
-                <div class="example_container">
-                  <div class="example_image_container">
-                    <img src="../pictures/github1.png" alt="css logo" class="lab_img" />
-                  </div>
-                  <div class="example_title">
-                    <p>GITHUB</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-    
-            <div class="lab_content">
-              <a href="https://www.linkedin.com/in/software-engineer-noah-wu/" class="lab_link">
-                <div class="example_container">
-                  <div class="example_image_container">
-                    <img src="../pictures/link1.png" alt="css logo" class="lab_img" />
-                  </div>
-                  <div class="example_title">
-                    <p>LINKENIN</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-  
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    crossorigin="anonymous">
+  <title>CONTACT PAGE</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/contact.css" />
+</head>
 
-          </div>
-          <div class="hero_button mylab_home_button">
-            <a href="../index.html" class="main_button">HOME</a>
-            <a href="../subpage/projects.html" class="main_button">PROJECTS</a>
-          </div>
-        </div>
-
-      <div class="contact_icon">
-        <a href="https://github.com/DonghaoWu" target="_blank">
-          <img src="../pictures/githublogowhite.png" alt="githubLogo" class="logo" />
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">Donghao Wu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="../index.html">HOME
+          <span class="sr-only">(current)</span>
         </a>
-        <a href="https://www.linkedin.com/in/software-engineer-noah-wu/" target="_blank">
-          <img src="../pictures/linkedinwhite.png" alt="linkedInLogo" class="logo" />
-        </a>
-        <a href="#">
-          <img src="../pictures/mailwhite.png" alt="mailLogo" class="logo" />
-        </a>
+        <a class="nav-item nav-link" href="./about.html">ABOUT</a>
+        <a class="nav-item nav-link" href="./projects.html">PROJECTS</a>
+        <a class="nav-item nav-link active" href="./contact.html">CONTACT</a>
       </div>
     </div>
-  </body>
+  </nav>
+
+  <div class="content-container">
+    <div class="my-contacts-container animate_pop_in">
+
+      <p class="my-contact-page-title">CONTACT</p>
+
+      <div class="my-contact-infos">
+
+        <div class="my-contact-box">
+          <img class='my-contact-image' src="../pictures/github1.png" />
+          <a href="https://github.com/DonghaoWu" class="contact-text">
+            <p>GITHUB</p>
+          </a>
+        </div>
+
+
+        <div class="my-contact-box">
+          <img class='my-contact-image' src="../pictures/link1.png" />
+
+          <a href="https://www.linkedin.com/in/software-engineer-noah-wu/" class="contact-text">
+            <p>LINKENIN</p>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-buttons">
+        <a href="../index.html" class="main-button">HOME</a>
+        <a href="./projects.html" class="main-button">PROJECTS</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="contact-icons">
+    <a href="https://github.com/DonghaoWu" target="_blank">
+      <img src="../pictures/githublogowhite.png" alt="githubLogo" class="logo" />
+    </a>
+    <a href="https://www.linkedin.com/in/software-engineer-noah-wu/" target="_blank">
+      <img src="../pictures/linkedinwhite.png" alt="linkedInLogo" class="logo" />
+    </a>
+    <a href="noah1706@gmail.com">
+      <img src="../pictures/mailwhite.png" alt="mailLogo" class="logo" />
+    </a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

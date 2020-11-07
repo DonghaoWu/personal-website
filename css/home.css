@@ -1,0 +1,50 @@
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-picture{
+    display: flex;
+    align-items: center;
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+}
+
+.text-container{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-name {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-role {
+    font-size: 2.5rem;
+}
+
+.self-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../pictures/me.jpeg");
+    background-size: 100% auto;
+    background-position: 50% 20%;
+
+    position: relative;
+    animation: myfirst 1.4s 1;
+}
+
+@keyframes myfirst {
+    0%   {left: 300px; top: 0px;opacity: 0%;}
+    50% { left: -30px; top: 0px;opacity: 70%;}
+    100% { left: 0px; top: 0px;opacity: 100%;}
+}
