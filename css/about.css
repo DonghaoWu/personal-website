@@ -1,35 +1,28 @@
-.info-container{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-
-.header {
-  height: 6rem;
+.form-title {
+  height: 5rem;
   background-color: #dc143c;
   border-bottom: black;
+  font-size: 2.5rem;
+  color: white;
+  width:100%;
 
   display: flex;
   justify-content: center;
 }
 
-.my-name {
-  font-size: 2.5rem;
-  color: white;
-  flex-wrap: wrap;
-}
-
-.info-content {
+.form-content {
   display: flex;
   flex-direction: column;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+
+  margin-bottom: 2rem;
 }
 
-.info-list{
+.form-info-list{
   display: flex;
 }
 
-.info-name{
+.form-info-name{
   background-color: orange;
   width:15%;
   display: flex;
@@ -37,31 +30,15 @@
   align-items: center;
 }
 
-.info-description{
+.form-info-description{
   padding: 1%;
   background-color: grey;
   flex: 1;
   border-bottom: 1px solid white;
 }
 
-.my-info-title{
+.form-info-title{
   color:white;
   margin: 0;
   padding: 0;
-}
-
-.about_button{
-  text-align: center;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-.white-line {
-  width: 100%;
-  height: 1px;
-  border-top: solid white 1px;
-  margin-top: 5px
 }

@@ -12,7 +12,21 @@ body {
 }
 
 .content-container{
-  margin:8% 5% 2% 5%;
+  margin:5% 5% 2% 5%;
+}
+
+.extended-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-bottom: 6%;
 }
 
 .animate_pop_in {
@@ -31,7 +45,51 @@ body {
   }
 }
 
-.hero-buttons {
+.page-title {
+  color:white;
+  font-size: 3rem;
+}
+
+.infos-content {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.card-box{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:2%;
+  width:23%;
+
+  position: relative;
+}
+
+.card-image{
+  width:99%;
+}
+
+.card-text{
+  background-color: orange;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 1rem;
+  color:black;
+  padding-top: 10px;
+}
+
+.card-text:hover{
+  background-color: #dc143c;
+  text-decoration: none;
+  color: white;
+}
+
+.buttons-content {
   display: flex;
   justify-content: center;
   font-size: 1.2rem;
@@ -68,4 +126,33 @@ body {
 .logo {
   width: 50px;
   margin: 0 10px 0 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.card-box:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
