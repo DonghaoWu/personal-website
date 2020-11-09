@@ -4,5 +4,21 @@
 }
 
 .sm-overlay-text{
-    font-size: 20px;
-}   
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1536px) { 
+    .small-box{
+        width:40%;
+        justify-content: flex-start;
+    }
+    .sm-overlay-text{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sm-overlay-text{
+        font-size: 12px;
+    }
+}

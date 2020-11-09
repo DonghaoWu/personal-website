@@ -41,3 +41,22 @@
     50% { left: -30px; top: 0px;opacity: 70%;}
     100% { left: 0px; top: 0px;opacity: 100%;}
 }
+
+@media only screen and (max-width: 768px) {
+    .text-picture{
+        margin-left: 1rem;
+        margin-bottom: 5rem;
+    }
+    
+    .my-name {
+        font-size: 4rem;
+    }
+    
+    .my-role {
+        font-size: 1.5rem;
+    }
+    
+    .self-picture{
+        display: none;
+    }
+}
