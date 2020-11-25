@@ -67,7 +67,7 @@
     and (orientation: portrait){ 
     
     .content-container{
-        margin-top: 20%;
+        margin-top: 16%;
     }
 
     .text-picture{
@@ -76,11 +76,11 @@
     }
     
     .my-name {
-        font-size: 8rem;
+        font-size: 6.5rem;
     }
     
     .my-role {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .text-picture{
