@@ -1,339 +1,498 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <title>MY PROJECTS</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-    crossorigin="anonymous">
-  <title>MY PROJECTS</title>
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/projects.css" />
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-light fixed-top">
+      <a class="navbar-brand" href="#">MY PROJECTS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="../index.html"
+            >HOME
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="./about.html">ABOUT</a>
+          <a class="nav-item nav-link active" href="./projects.html"
+            >PROJECTS</a
+          >
+          <a class="nav-item nav-link" href="./contact.html">CONTACT ME</a>
+        </div>
+      </div>
+    </nav>
 
-<body>
+    <div class="content-container extended-container">
+      <div class="main-content animate_pop_in">
+        <p class="page-title">MY PROJECTS</p>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-light fixed-top">
-    <a class="navbar-brand" href="#">MY PROJECTS</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" href="../index.html">HOME
-          <span class="sr-only">(current)</span>
-        </a>
-        <a class="nav-item nav-link" href="./about.html">ABOUT</a>
-        <a class="nav-item nav-link active" href="./projects.html">PROJECTS</a>
-        <a class="nav-item nav-link" href="./contact.html">CONTACT ME</a>
+        <div class="category-container">
+          <div class="category-header">Full stack applications</div>
+
+          <div class="category-contentContainer">
+            <div class="category-content">
+              <div class="card-box small-box">
+                <img class="card-image" src="../pictures/light/stock.png" />
+                <a
+                  href="https://stock-app-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React</li>
+                      <li>Redux</li>
+                      <li>Finhub.io API</li>
+                      <li>MongoDB</li>
+                      <li>Express</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://stock-app-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>STOCK APP 2020</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/clothing-friends.png"
+                />
+                <a
+                  href="https://clothing-friends-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React</li>
+                      <li>Redux-Thunk</li>
+                      <li>Firestore</li>
+                      <li>Stripe</li>
+                      <li>Express</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://clothing-friends-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>CLOTHING FRIENDS 2020</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/smart-brain.png"
+                />
+                <a
+                  href="https://smart-brains-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>Redux</li>
+                      <li>redis</li>
+                      <li>Docker</li>
+                      <li>Clarifai API</li>
+                      <li>PostgreSQL</li>
+                      <li>AWS Lambda</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://smart-brains-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>SMART BRAINS 2021</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/dragon-stack.png"
+                />
+                <a
+                  href="https://dragon-stack-2021.herokuapp.com/public-dragons"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React</li>
+                      <li>Redux</li>
+                      <li>Authentication</li>
+                      <li>PostgreSQL</li>
+                      <li>Modal</li>
+                      <li>OOP</li>
+                      <li>ES6</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://dragon-stack-2021.herokuapp.com/public-dragons"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>Dragon stack 2021</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/weather-app.png"
+                />
+                <a
+                  href="https://myweather-app-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React</li>
+                      <li>openweathermap API</li>
+                      <li>PostgreSQL Client</li>
+                      <li>Express</li>
+                      <li>sh file</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://myweather-app-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>WEATHER APP 2021</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/contact-keeper.png"
+                />
+                <a
+                  href="https://contact-keeper-2021.herokuapp.com/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React Context API</li>
+                      <li>MongoDB</li>
+                      <li>Express</li>
+                      <li>Node</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://contact-keeper-2021.herokuapp.com/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>CONTACT KEEPER 2020</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="category-container">
+          <div class="category-header">API based applications</div>
+          <div class="category-contentContainer">
+            <div class="category-content">
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/tableau-demo-2021.png"
+                />
+                <a
+                  href="https://tableau-demo-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>Tableau API</li>
+                      <li>React</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://tableau-demo-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>Tableau demo 2021</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/natural-events-tracker.png"
+                />
+                <a
+                  href="https://natural-events-tracker-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>Google API</li>
+                      <li>NASA Open API</li>
+                      <li>React</li>
+                      <li>Iconify</li>
+                      <li>google-map-react</li>
+                      <li>Heroku(CRA)</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://natural-events-tracker-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>Natural event tracker 2020</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img class="card-image" src="../pictures/light/gmc.png" />
+                <a
+                  href="https://donghaowu.github.io/googleMap-clone-doc-githubio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>Mapbox</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://donghaowu.github.io/googleMap-clone-doc-githubio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>Google map clone 2020</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img class="card-image" src="../pictures/light/robot.png" />
+                <a
+                  href="https://donghaowu.github.io/PWA-robotFriends-githubio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React</li>
+                      <li>Redux</li>
+                      <li>PWA</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://donghaowu.github.io/PWA-robotFriends-githubio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>ROBOT FRIENDS 2019</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/github-finder.png"
+                />
+                <a
+                  href="https://github-finder-2021.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React Context API</li>
+                      <li>Github API</li>
+                      <li>Express</li>
+                      <li>Netlify</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://github-finder-2021.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>GITHUB FINDER 2020</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="category-container">
+          <div class="category-header">Responsive design applications</div>
+          <div class="category-contentContainer">
+            <div class="category-content">
+              <div class="card-box small-box">
+                <img class="card-image" src="../pictures/light/codeTyke.png" />
+                <a
+                  href="https://codetyke-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>node-sass</li>
+                      <li>Responsive design</li>
+                      <li>Progress bar</li>
+                      <li>Processing loader</li>
+                      <li>Modal</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://codetyke-2021.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>CodeTyke 2021</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="category-container">
+          <div class="category-header">Other applications</div>
+          <div class="category-contentContainer">
+            <div class="category-content">
+              <div class="card-box small-box">
+                <img
+                  class="card-image"
+                  src="../pictures/light/auth-demo-2020.png"
+                />
+                <a
+                  href="https://firebase-auth-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React Context API</li>
+                      <li>Firestore</li>
+                      <li>Express</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://firebase-auth-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>Firebase auth demo 2020</p>
+                </a>
+              </div>
+
+              <div class="card-box small-box">
+                <img class="card-image" src="../pictures/light/quonto.png" />
+                <a
+                  href="http://twprojectx.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="overlay">
+                    <div class="overlay-text sm-overlay-text">
+                      <li>React</li>
+                      <li>Express</li>
+                      <li>Heroku</li>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="http://twprojectx.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="card-text"
+                >
+                  <p>QUONTO 2019</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons-content">
+          <a href="./about.html" class="main-button">ABOUT ME</a>
+          <a href="./contact.html" class="main-button">CONTACT ME</a>
+        </div>
       </div>
     </div>
-  </nav>
 
-  <div class="content-container extended-container">
-    <div class="main-content animate_pop_in">
-
-      <p class="page-title">MY PROJECTS</p>
-
-      <div class='category-container'>
-        <div class='category-header'>Full stack applications</div>
-
-        <div class="category-contentContainer">
-          <div class="category-content">
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/stock.png" />
-              <a href="https://stock-app-2020.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>Finhub.io API</li>
-                    <li>MongoDB</li>
-                    <li>Express</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://stock-app-2020.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>STOCK APP 2020</p>
-              </a>
-            </div>
-
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/clothing-friends.png" />
-              <a href="https://clothing-friends-2020.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React</li>
-                    <li>Redux-Thunk</li>
-                    <li>Firestore</li>
-                    <li>Stripe</li>
-                    <li>Express</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://clothing-friends-2020.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>CLOTHING FRIENDS 2020</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/smart-brain.png" />
-              <a href="https://smart-brains-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>Redux</li>
-                    <li>redis</li>
-                    <li>Docker</li>
-                    <li>Clarifai API</li>
-                    <li>PostgreSQL</li>
-                    <li>AWS Lambda</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://smart-brains-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>SMART BRAINS 2021</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/dragon-stack.png" />
-              <a href="https://dragon-stack-2021.herokuapp.com/public-dragons" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>Authentication</li>
-                    <li>PostgreSQL</li>
-                    <li>Modal</li>
-                    <li>OOP</li>
-                    <li>ES6</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://dragon-stack-2021.herokuapp.com/public-dragons" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>Dragon stack 2021</p>
-              </a>
-            </div>
-
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/weather-app.png" />
-              <a href="https://myweather-app-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React</li>
-                    <li>openweathermap API</li>
-                    <li>PostgreSQL Client</li>
-                    <li>Express</li>
-                    <li>sh file</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://myweather-app-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>WEATHER APP 2021</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/contact-keeper.png" />
-              <a href="https://contact-keeper-2021.herokuapp.com/login" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React Context API</li>
-                    <li>MongoDB</li>
-                    <li>Express</li>
-                    <li>Node</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://contact-keeper-2021.herokuapp.com/login" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>CONTACT KEEPER 2020</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class='category-container'>
-        <div class='category-header'>API based applications</div>
-        <div class="category-contentContainer">
-          <div class="category-content">
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/tableau-demo-2021.png" />
-              <a href="https://tableau-demo-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>Tableau API</li>
-                    <li>React</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://tableau-demo-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>Tableau demo 2021</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/natural-events-tracker.png" />
-              <a href="https://natural-events-tracker-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-
-                    <li>Google API</li>
-                    <li>NASA Open API</li>
-                    <li>React</li>
-                    <li>Iconify</li>
-                    <li>google-map-react</li>
-                    <li>Heroku(CRA)</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://natural-events-tracker-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>Natural event tracker 2020</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/gmc.png" />
-              <a href="https://donghaowu.github.io/googleMap-clone-doc-githubio/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>Mapbox</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://donghaowu.github.io/googleMap-clone-doc-githubio/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>Google map clone 2020</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/robot.png" />
-              <a href="https://donghaowu.github.io/PWA-robotFriends-githubio" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>PWA</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://donghaowu.github.io/PWA-robotFriends-githubio" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>ROBOT FRIENDS 2019</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/github-finder.png" />
-              <a href="https://github-finder-2021.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React Context API</li>
-                    <li>Github API</li>
-                    <li>Express</li>
-                    <li>Netlify</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github-finder-2021.netlify.app/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>GITHUB FINDER 2020</p>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class='category-container'>
-        <div class='category-header'>Responsive design applications</div>
-        <div class="category-contentContainer">
-          <div class="category-content">
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/codeTyke.png" />
-              <a href="https://codetyke-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>node-sass</li>
-                    <li>Responsive design</li>
-                    <li>Progress bar</li>
-                    <li>Processing loader</li>
-                    <li>Modal</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://codetyke-2021.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>CodeTyke 2021</p>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class='category-container'>
-        <div class='category-header'>Other applications</div>
-        <div class="category-contentContainer">
-          <div class="category-content">
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/auth-demo-2020.png" />
-              <a href="https://firebase-auth-2020.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React Context API</li>
-                    <li>Firestore</li>
-                    <li>Express</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="https://firebase-auth-2020.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>Firebase auth demo 2020</p>
-              </a>
-            </div>
-
-            <div class="card-box small-box">
-              <img class='card-image' src="../pictures/light/quonto.png" />
-              <a href="http://twprojectx.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <div class="overlay">
-                  <div class='overlay-text sm-overlay-text'>
-                    <li>React</li>
-                    <li>Express</li>
-                    <li>Heroku</li>
-                  </div>
-                </div>
-              </a>
-              <a href="http://twprojectx.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="card-text">
-                <p>QUONTO 2019</p>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="buttons-content">
-        <a href="./about.html" class="main-button">ABOUT ME</a>
-        <a href="./contact.html" class="main-button">CONTACT ME</a>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
