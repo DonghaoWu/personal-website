@@ -4,7 +4,7 @@
   border-bottom: black;
   font-size: 2.5rem;
   color: white;
-  width:100%;
+  width: 100%;
 
   display: flex;
   justify-content: center;
@@ -18,68 +18,78 @@
   margin-bottom: 2rem;
 }
 
-.form-info-list{
+.form-info-list {
   display: flex;
 }
 
-.form-info-name{
+.form-info-name {
   background-color: orange;
-  width:15%;
+  width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
 }
 
-.form-info-description{
+.form-info-description {
   padding: 1%;
   background-color: grey;
   flex: 1;
   border-bottom: 1px solid white;
 }
 
-.form-info-title{
-  color:white;
+.form-unit-info-title {
+  color: white;
   margin: 0;
   padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: square;
+  color: white;
+}
+
+li {
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
   .form-title {
     height: 4rem;
   }
-  
+
   .form-content {
     font-size: 0.9rem;
   }
 
-  .form-info-name{
+  .form-info-name {
     font-size: 0.5rem;
   }
 }
 
-@media only screen 
-    and (max-device-width : 420px) 
-    and (-webkit-device-pixel-ratio : 3) 
-    and (orientation: portrait){ 
+@media only screen and (max-device-width: 420px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .form-title {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+  }
 
-      .form-title {
-        height: 10rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 4rem;
-      }
-      
-      .form-content {
-        font-size: 1.8rem;
-        margin-bottom: 10%;
-      }
-      .form-info-description {
-        padding: 3% 3%;
-      }
-    
-      .form-info-name{
-        font-size: 2rem;
-        width:25%;
-      } 
+  .form-content {
+    font-size: 1.8rem;
+    margin-bottom: 10%;
+  }
+  .form-info-description {
+    padding: 3% 3%;
+  }
+
+  .form-info-name {
+    font-size: 2rem;
+    width: 25%;
+  }
 }
